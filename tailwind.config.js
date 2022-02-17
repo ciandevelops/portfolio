@@ -4,6 +4,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      body: ['"Open Sans"', "sans-serif"],
+      headings: ['"Cormorant Upright"', "serif"],
+    },
     extend: {},
   },
   plugins: [],
